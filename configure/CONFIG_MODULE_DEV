@@ -7,6 +7,7 @@ E3_MODULE_VERSION:=develop
 # DEPENDENT MODULE VERSION
 # DEPENDENT MODULE VERSION
 # For Example, 
+AUTOSAVE_DEP_VERSION:=5.9.0
 #DEVLIB2_DEP_VERSION:=2.9.0
 #ASYN_DEP_VERSION:=4.33.0
 #PCRE_DEP_VERSION:=8.41.
@@ -25,11 +26,11 @@ E3_MODULE_VERSION:=develop
 #
 
 E3_MODULE_NAME:=$(EPICS_MODULE_NAME)
-E3_MODULE_SRC_PATH:=m-epics-saverestore-dev
+E3_MODULE_SRC_PATH:=m-epics-SaveRestore-dev
 E3_MODULE_MAKEFILE:=$(EPICS_MODULE_NAME).Makefile
 
 #E3_MODULE_DEV_GITURL:="https://where your git repo which you would like to clone"
-E3_MODULE_DEV_GITURL:="https://bitbucket.org/europeanspallationsource/m-epics-saverestore"
+E3_MODULE_DEV_GITURL:="https://bitbucket.org/europeanspallationsource/m-epics-SaveRestore"
 
 # The definitions shown below can also be placed in an untracked CONFIG_MODULE_DEV.local
 -include $(TOP)/configure/CONFIG_MODULE_DEV.local
