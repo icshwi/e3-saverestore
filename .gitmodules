@@ -1,0 +1,4 @@
+[submodule "m-epics-saverestore"]
+	path = m-epics-saverestore
+	url = https://bitbucket.org/europeanspallationsource/m-epics-saverestore
+	ignore = all
