@@ -1,7 +1,7 @@
 #
 EPICS_MODULE_NAME:=saverestore
 
-EPICS_MODULE_TAG:=tags/v1.3.0
+EPICS_MODULE_TAG:=master
 #
 E3_MODULE_VERSION:=master
 
