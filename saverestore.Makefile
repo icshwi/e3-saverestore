@@ -70,7 +70,7 @@ USR_INCLUDES += -I$(where_am_I)$(APPSRC)
 TEMPLATES += $(wildcard $(APPDB)/*.db)
 # TEMPLATES += $(wildcard $(APPDB)/*.db)
 # TEMPLATES += $(wildcard $(APPDB)/*.proto)
-# TEMPLATES += $(wildcard $(APPDB)/*.template)
+TEMPLATES += $(wildcard $(APPDB)/*.template)
 
 
 # DBDINC_SRCS += $(APPSRC)/swaitRecord.c
@@ -108,6 +108,7 @@ SOURCES   += $(wildcard $(APPSRC)/*.c)
 # SOURCES += $(DBDINC_SRCS)
 
 DBDS += dbd/SaveRestore.dbd
+DBDS += src/saveandrestore_asub.dbd
 # DBDS += $(APPSRC)/calcSupport_LOCAL.dbd
 # DBDS += $(APPSRC)/calcSupport_withSNCSEQ.dbd
 # DBDS += $(APPSRC)/calcSupport_withSSCAN.dbd
